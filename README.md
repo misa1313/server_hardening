@@ -22,6 +22,6 @@ bash server_hardening.sh
 ## Features:
 
 The script will execute 3 main functions:
-ssh_hardening - Good practices to secure our SSH config
-fw_hardening  - Block all ports except the ones specified
-user_pass_policy - Settings about user's password complexity, attempts, change frequency, etc. 
++ ssh_hardening - Good practices to secure our SSH config
++ fw_hardening  - Block all ports except the ones specified
++ user_pass_policy - Settings about user's password complexity, attempts, change frequency, etc. 
