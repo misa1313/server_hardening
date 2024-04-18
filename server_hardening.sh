@@ -242,7 +242,7 @@ firewalld_rules() {
     done
     echo -e "Ports added, restarting firewalld...\n"
     exe eval '/usr/bin/firewall-cmd --reload'
-    echo -e "\nTo revert changes run:\nmv /etc/firewalld{,.temp} /etc/csf/csf.conf && mv /etc/firewalld.shsbk /etc/firewalld && /usr/bin/firewall-cmd --reload"
+    echo -e "\nTo revert changes run:\nmv /etc/firewalld{,.temp} && mv /etc/firewalld.shsbk /etc/firewalld && /usr/bin/firewall-cmd --reload"
 }
 
 iptables_rules() {
